@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:gravity="center_horizontal"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/Key1"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:onClick="Onclick1"
+        android:text="first" />
+
+    <Button
+        android:id="@+id/key2"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:onClick="Onclick2"
+        android:text="second" />
+
+    <Button
+        android:id="@+id/key3"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:onClick="Onclick3"
+        android:text="threes" />
+
+</LinearLayout>
